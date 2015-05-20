@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="380.0" prefWidth="364.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <TextField layoutX="27.0" layoutY="45.0" />
+      <TextField layoutX="27.0" layoutY="105.0" />
+      <TextField layoutX="29.0" layoutY="226.0" />
+      <Label layoutX="25.0" layoutY="28.0" text="Total Gross Income" />
+      <Label layoutX="27.0" layoutY="88.0" text="Total Monthly Debt" />
+      <Label layoutX="27.0" layoutY="150.0" text="Mortgage Interest Rate Term" />
+      <Label layoutX="27.0" layoutY="209.0" text="Down Payment" />
+      <Button layoutX="29.0" layoutY="275.0" mnemonicParsing="false" text="Calculate" />
+      <Label layoutX="29.0" layoutY="314.0" prefHeight="25.0" prefWidth="154.0" />
+   </children>
+</AnchorPane>
